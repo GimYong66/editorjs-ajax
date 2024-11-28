@@ -170,6 +170,22 @@ module.exports = class Utils {
       }, false);
 
       /**
+       * Add cancel listener for «choose file» pop-up
+       */
+      inputElement.addEventListener('cancel', event => {
+
+        /**
+         * Return reject to cancel
+         */
+        reject();
+
+        /**
+         * Remove element from a DOM
+         */
+        document.body.removeChild(inputElement);
+      }, false);
+
+      /**
        * Fire click event on «input file» field
        */
       inputElement.click();
