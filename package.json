@@ -1,5 +1,5 @@
 {
-  "name": "GimYong66/editorjs-ajax",
+  "name": "editorjs-ajax",
   "exportModuleName": "ajax",
   "version": "4.2.0",
   "description": "Native AJAX module",
