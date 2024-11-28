@@ -1,5 +1,5 @@
 {
-  "name": "@codexteam/ajax",
+  "name": "GimYong66/editorjs-ajax",
   "exportModuleName": "ajax",
   "version": "4.2.0",
   "description": "Native AJAX module",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codex-team/ajax.git"
+    "url": "git+https://github.com/GimYong66/editorjs-ajax.git"
   },
   "author": {
     "name": "Taly Guryn",
