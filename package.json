@@ -5,6 +5,7 @@
   "description": "Native AJAX module",
   "main": "./dist/main.js",
   "scripts": {
+    "prepare": "webpack --mode production",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch",
     "start": "nodemon dev/server.js"
@@ -33,7 +34,7 @@
     "multer": "^1.4.1",
     "nodemon": "^1.18.10",
     "promise-polyfill": "^8.1.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }
